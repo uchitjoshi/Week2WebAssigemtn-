@@ -1,0 +1,250 @@
+
+<!-- Uchit Joshi Week 2 Assignment -->
+
+<!DOCTYPE html>
+<!-- Declares that this document uses HTML5 -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uchit Joshi - Portfolio</title>
+    <!-- The <title> defines the name displayed on the browser tab. -->
+
+</head>
+
+<body>
+<!-- The <body> contains all visible content of the webpage. -->
+
+
+    <!-- ==================== HEADER SECTION ==================== -->
+
+    <header>
+        <!-- <header> represents the introductory section of the webpage.
+             It contains the main title and navigation menu. -->
+
+        <h1>Uchit Joshi</h1>
+        <!-- <h1> is the main heading of the webpage.
+             It represents the primary title. -->
+
+
+        <nav>
+            <!-- <nav> defines a section containing navigation links. -->
+
+            <ul>
+                <!-- <ul> creates an unordered list for the navigation items. -->
+
+                <li>
+                    <!-- <li> represents one item in the list. -->
+                    <a href="#about">About</a>
+                    <!-- <a> creates a hyperlink.
+                         href="#about" links to the element with id="about". -->
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+
+    <main>
+        <!-- <main> contains the main content of the webpage.
+             It represents the primary information of the portfolio. -->
+
+
+        <!-- ==================== ABOUT SECTION ==================== -->
+
+        <section id="about">
+            <!-- <section> groups related content together.
+                 id="about" allows the navigation link to reach this section. -->
+
+            <h2>About Me</h2>
+            <!-- <h2> is a second-level heading used for the section title. -->
+
+            <img src="image/profile.jpg" alt="Profile photo of Uchit Joshi">
+            <!-- <img> displays an image.
+                 src specifies the image location.
+                 alt provides alternative text for accessibility
+                 if the image cannot be displayed. -->
+
+            <p>
+                <!-- <p> defines a paragraph of text. -->
+
+                I am an Information Technology student from Nepal.
+                I am interested in web development, programming,
+                cybersecurity, and technology.
+
+            </p>
+
+        </section>
+
+
+        <!-- ==================== SKILLS SECTION ==================== -->
+
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <dl>
+                <!-- <dl> creates a description list.
+                     It is useful for displaying terms and their descriptions. -->
+
+                <dt>HTML</dt>
+                <!-- <dt> defines a term in a description list. -->
+
+                <dd>Creating web pages.</dd>
+                <!-- <dd> provides the description of the term. -->
+
+
+                <dt>Python</dt>
+                <dd>Programming and problem solving.</dd>
+
+
+                <dt>JavaScript</dt>
+                <dd>Creating interactive web pages.</dd>
+
+
+                <dt>SQL</dt>
+                <dd>Managing and working with databases.</dd>
+
+
+                <dt>Cybersecurity</dt>
+                <dd>Learning network and security concepts.</dd>
+
+            </dl>
+
+        </section>
+
+
+        <!-- ==================== PROJECTS SECTION ==================== -->
+
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+
+            <!-- First project -->
+            <article>
+                <!-- <article> represents an independent piece of content.
+                     Each project is placed inside its own article. -->
+
+                <h3>Banking System</h3>
+                <!-- <h3> is a third-level heading for the project title. -->
+
+                <p>
+                    A simple banking system created using C.
+                </p>
+
+                <a href="https://github.com/uchitjoshi">
+                    <!-- <a> creates a link to the GitHub repository/profile. -->
+
+                    View Project
+
+                </a>
+
+            </article>
+
+
+            <!-- Second project -->
+            <article>
+
+                <h3>Quiz Game</h3>
+
+                <p>
+                    A simple quiz game created as a programming project.
+                </p>
+
+                <a href="https://github.com/uchitjoshi">
+                    View Project
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- ==================== CONTACT SECTION ==================== -->
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+
+            <form action="#" method="post">
+                <!-- <form> creates a form for collecting user information.
+                     action specifies where the form data is sent.
+                     method="post" specifies how the data is submitted. -->
+
+
+                <p>
+                    <label for="name">Name:</label>
+                    <!-- <label> provides a name for the input field.
+                         The "for" attribute connects the label to the input
+                         with the matching id. -->
+
+                    <input type="text" id="name" name="name">
+                    <!-- <input> creates an input field.
+                         type="text" allows the user to enter text. -->
+                </p>
+
+
+                <p>
+                    <label for="email">Email:</label>
+
+                    <input type="email" id="email" name="email">
+                    <!-- type="email" creates an email input field
+                         and allows browsers to perform basic email validation. -->
+                </p>
+
+
+                <p>
+                    <label for="message">Message:</label>
+
+                    <textarea id="message" name="message"></textarea>
+                    <!-- <textarea> creates a larger multi-line text field
+                         for entering a message. -->
+                </p>
+
+
+                <button type="submit">Submit</button>
+                <!-- <button> creates a clickable button.
+                     type="submit" submits the form. -->
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER SECTION ==================== -->
+
+    <footer>
+        <!-- <footer> represents the bottom section of the webpage.
+             It normally contains copyright or additional information. -->
+
+        <p>&copy; 2026 Uchit Joshi</p>
+        <!-- &copy; creates the copyright symbol. -->
+
+    </footer>
+
+
+</body>
+<!-- End of the visible webpage content. -->
+
+</html>
+<!-- End of the HTML document. -->
